@@ -2597,7 +2597,7 @@ textarea {
 }
 
 .front-page-content .panel-grid-cell {
-	margin-bottom: 25px !important;
+	/* margin-bottom: 25px !important; */
 }
 
 .front-page-content h1,
@@ -6061,4 +6061,11 @@ input[type="submit"],
     .main-navigation ul {
         padding-right: 0;
     }
+}
+
+/* ------------------------------
+CUSTOM CSS
+---------------------------*/
+.panel-grid.panel-has-style > .panel-row-style {
+	background-color: transparent;
 }
