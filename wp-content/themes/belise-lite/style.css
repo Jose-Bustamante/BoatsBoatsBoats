@@ -2577,7 +2577,7 @@ textarea {
 --------------------------------------------------------------*/
 .front-page-content {
 	background: #f2ebe0;
-	padding: 0px 0 45px;
+	padding: 0px 0 0px;
 }
 
 .front-page-content .row {
@@ -2646,6 +2646,10 @@ textarea {
 .front-page-content img.alignleft {
 	float: none;
 	margin: 0;
+}
+
+.home .front-page-after-content {
+	display: none;
 }
 
 .front-page-after-content {
@@ -3368,6 +3372,10 @@ body.page-template-template-full-width.page {
 	/*--------------------------------------------------------------
     ## Sidebars & Widgets
     --------------------------------------------------------------*/
+.home .front-page-sidebar {
+	display: none;
+}
+
 .front-page-sidebar {
 	background: #f2ebe0;
 	padding: 41px 0;
@@ -5428,7 +5436,7 @@ input[type="submit"],
 	 ## Front page
 	 -----------*/
 	.front-page-content {
-		padding: 0px 0 88px;
+		padding: 0px 0 px;
 	}
 
 	.front-page-content h1,
@@ -5849,6 +5857,10 @@ input[type="submit"],
 /*-----------
 	 ## Sidebars & Widgets
 	 -----------*/
+	 .home .front-page-sidebar {
+		display: none;
+	}
+
 	.front-page-sidebar {
 		padding: 75px 0;
 	}
@@ -6068,4 +6080,19 @@ CUSTOM CSS
 ---------------------------*/
 .panel-grid.panel-has-style > .panel-row-style {
 	background-color: transparent;
+}
+
+.hopePageSliderPadding {
+	padding: 25vh 20px;
+}
+
+@media (max-width: 780px) {
+	.homePageSquares {
+		margin: 0 10px;
+	}
+
+	.hopePageSliderPadding {
+		padding: 15vh 5px;
+
+	}
 }
