@@ -2393,7 +2393,6 @@ textarea {
 --------------------------------------------------------------*/
 
 #hero {
-	display: none;
 	position: relative;
 }
 
@@ -4333,7 +4332,7 @@ input[type="submit"],
      -----------*/
 
 	.entry-content {
-		margin: 70px 40px 95px;
+		margin: 20px 40px 0px;
 	}
 
 	.page-template-template-full-width .entry-content {
@@ -5177,7 +5176,7 @@ input[type="submit"],
 	}
 
 	.page .single-container {
-		margin-bottom: 150px;
+		margin-bottom: 0px;
 	}
 
 /*-----------
@@ -5201,7 +5200,7 @@ input[type="submit"],
      -----------*/
 
 	.entry-content {
-		margin: 90px 150px 95px;
+		margin: 0px 150px 0px;
 	}
 
 	.page-template-template-full-width .entry-content {
@@ -5972,7 +5971,7 @@ input[type="submit"],
 	}
 
 	.single-container .entry-content {
-		margin: 90px 150px 45px;
+		margin: 20px 150px 0px;
 	}
 }
 
@@ -5982,7 +5981,7 @@ input[type="submit"],
      -----------*/
 
 	.content-area {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 
 	.page-template-template-full-width .content-area {
@@ -6078,6 +6077,10 @@ input[type="submit"],
 /* ------------------------------
 CUSTOM CSS
 ---------------------------*/
+.home #hero {
+	display: none;
+}
+
 .panel-grid.panel-has-style > .panel-row-style {
 	background-color: transparent;
 }
@@ -6095,4 +6098,33 @@ CUSTOM CSS
 		padding: 15vh 5px;
 
 	}
+}
+
+.aboutUsWidget .aboutUsTitle {
+	text-align: center;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 800;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	color: #363639;
+	background-color: #dadfe8;
+}
+
+.aboutUsWidget .aboutUsMessage {
+	padding: 45px 35px;
+	color: #7d7d80;
+}
+
+.aboutPageText {
+	margin: 5% 0;
+}
+/* This one is for the annoying edit word to not show */
+.entry-footer { 
+	display: none;
+}
+
+.AboutUsContainer {
+	margin-top: 30px;
 }
