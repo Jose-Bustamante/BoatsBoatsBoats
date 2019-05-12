@@ -6086,8 +6086,58 @@ CUSTOM CSS
 }
 
 .hopePageSliderPadding {
-	padding: 25vh 20px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin: 0 8vw;
 }
+
+.sow-slider-image-wrapper {
+	display: flex;
+}
+
+.homePageSliderHeaderContainer {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+
+}
+
+
+.front-page-content .homePageSliderHeader {
+	background: rgba(235,240,246,0.85);
+	display: inline-block;
+	font-size: 56px!important;
+	line-height: 1;
+	margin-bottom: 13px;
+	padding: 25px 37px 22px;
+	color: #363639;
+	font-weight: 900;
+}
+
+@media (max-width: 480px) {
+	.front-page-content .homePageSliderHeader {
+		color: #363639;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px!important;
+    font-weight: 900;
+    display: inline;
+    letter-spacing: 0.1em;
+    line-height: 34px;
+    margin: 0 10px 0 0;
+    padding: 0;
+		text-transform: uppercase;
+		background: transparent;
+	}
+	.homePageSliderHeaderContainer {
+		background: rgba(235,240,246,0.85);
+		padding: 30px 15px;
+		align-items: center;
+
+	}
+}
+
+
 
 @media (max-width: 780px) {
 	.homePageSquares {
@@ -6095,8 +6145,10 @@ CUSTOM CSS
 	}
 
 	.hopePageSliderPadding {
-		padding: 15vh 5px;
-
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		width: 100%;
 	}
 }
 
